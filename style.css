@@ -23,9 +23,35 @@ z-index:100;
 }
 
 .logo img{
-height:70px;
+    width:120px;
+    height:auto;
+    display:block;
+}
+.logo{
+    display:flex;
+    align-items:center;
+    gap:18px;
 }
 
+.logo img{
+    width:90px;
+    height:90px;
+    object-fit:contain;
+}
+
+.logo-text h2{
+    color:#d4af37;
+    font-size:28px;
+    margin:0;
+    font-weight:700;
+}
+
+.logo-text p{
+    color:#cfcfcf;
+    font-size:13px;
+    margin-top:4px;
+    letter-spacing:1px;
+}
 nav a{
 color:white;
 text-decoration:none;
